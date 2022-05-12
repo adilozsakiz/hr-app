@@ -62,9 +62,9 @@ public class SwaggerConfig implements WebMvcConfigurer {
     private ApiInfo apiInfo() {
 
         return new ApiInfoBuilder()
-                .title("CRM MicroServices")
+                .title("HR")
                 .description("<b>Client FrontEnd API</b><br /><br />Updated: [" + (new Date(apiTimeStamp)).toString() + " ]"
-                        + " <script>document.title = \"CRM MicroServices\";"
+                        + " <script>document.title = \"HR \";"
                         + " document.getElementById('header').remove();"
                         + "</script>")
                 .version(apiMajorVersion + "." + apiMinorVersion)
